@@ -19,7 +19,7 @@ export default async function HomePage() {
       <header className="border-b border-slate-200 bg-white">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-brand-600 text-white flex items-center justify-center font-bold">
+            <span className="w-8 h-8 rounded-lg bg-brand-600  flex items-center justify-center font-bold">
               S
             </span>
             <span className="font-semibold">Smart PMS</span>
@@ -42,7 +42,7 @@ export default async function HomePage() {
 
       <main className="max-w-6xl mx-auto px-4 py-20">
         <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-5xl font-bold tracking-tight">
+          <h1 className="text-5xl font-bold text-black">
             Smart Project &{" "}
             <span className="text-brand-600">Task Management</span>
           </h1>

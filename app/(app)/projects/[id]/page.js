@@ -210,7 +210,7 @@ export default function ProjectDetailPage() {
           <>
             <div className="flex items-start justify-between gap-3">
               <div>
-                <h1 className="text-2xl font-bold tracking-tight">
+                <h1 className="text-2xl font-bold text-black">
                   {project.name}
                 </h1>
                 <div className="mt-2 flex flex-wrap items-center gap-3 text-sm">

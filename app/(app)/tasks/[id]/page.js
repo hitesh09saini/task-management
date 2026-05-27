@@ -158,7 +158,7 @@ export default function TaskDetailPage() {
       <div className="bg-white dark:bg-slate-900 border border-slate-200/70 dark:border-slate-800 rounded-xl shadow-card p-6 mb-6">
         <div className="flex items-start justify-between gap-4">
           <div className="min-w-0">
-            <h1 className="text-2xl font-bold tracking-tight">{task.title}</h1>
+            <h1 className="text-2xl font-bold text-black">{task.title}</h1>
             <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
               <StatusBadge kind="task" value={task.status} />
               <StatusBadge kind="priority" value={task.priority} />
